@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color:#426696
+   
+
+
+}
+h3{
+    color:#426696b9
+    
+}
+
+a{ 
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+a:hover{
+    color:#8fb7f0;
+    transition: 0.3s ease-in;
+}
+a:active{
+    color:#000000;
+}
+
+h2,p,a{
+    color:#658ec6
+    
+    
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+}
+.glass{
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+    display: flex;
+
+}
+
+.circle1, .circle2{
+        background: white;
+        background: linear-gradient(to right bottom,rgba(255,255,255,0.8),rgba(255,255,255,0.3));
+        height: 20rem;
+        width: 20rem;
+        position: absolute;
+        border-radius: 50%;
+      
+}
+
+.circle1{
+    top:5%;
+    right: 15%;
+    z-index: 2;
+    
+}
+.circle2{
+    bottom:5%;
+    left: 10%;
+    z-index: 2;
+    
+}
+
+.dashboard{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));;
+    border-radius: 2rem;
+
+}
+.Sensors{
+    flex:2;
+}
+
+.link{
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items:center ;
+}
+
+.link h2{
+    padding: 0rem,2rem;
+
+}
+
+
+.pro{
+    background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+    border-radius: 2rem; 
+    color:white;
+    padding: 1rem;
+    display: flex;
+
+}
+
+.pro h2{
+    width: -40%;
+    color:white;
+    font-weight: 600;
+
+}
+
+
+
+.status{
+    margin-bottom: 3rem;
+}
+
+
+.Sensors{
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    display: flex;
+    background: linear-gradient(to left top,rgba(255,255,255,0.8),rgba(255,255,255,0.5));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
+}
+
+.progress-bar{
+    background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+    width: 600px;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+.progress-bar::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(229, 244, 250, 0.925);
+    position: absolute;
+    left: 60%;
+    
+    
+}
+
+
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+#logo2{
+    width: 35px;
+    height: auto;
+    padding: 5px;
+}
+.currentLink{
+    color: hotpink;
+}
